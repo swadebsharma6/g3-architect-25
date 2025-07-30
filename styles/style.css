@@ -88,3 +88,11 @@
 .banner-img img {
   width: 100%;
 }
+
+/* Responsible */
+@media screen and (max-width: 576px) {
+  .navbar,
+  .nav-links {
+    flex-direction: column;
+  }
+}
